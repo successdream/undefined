@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>关于undefined的思考</title>
+	</head>
+	<body>
+		
+		<script>
+			
+			var ss;
+			if(ss==undefined){
+				alert(2);
+			}
+			
+			function aa(date){
+				if( undefined==date){
+					alert("hello");
+				}
+				if ('undefined'==typeof(date)) {
+					alert("你好")
+				}
+			}
+			
+			aa()
+			if(typeof(undefined)=="undefined"){
+				alert("厉害了")
+			}
+			//undefined的用法总结,变量及函数的undefined,不用带引号，而typeof的则需要带上引号。
+			//typeof undefined等于带引号的undefined
+			
+		</script>
+	</body>
+</html>
